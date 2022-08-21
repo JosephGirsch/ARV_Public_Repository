@@ -1,0 +1,17 @@
+# Ignore everything in these folders
+old/
+tableau/
+output_ARV_plots/*
+intermediate_BatchCensusCode_files/*
+intermediate_ARV_files/*
+raw_real_estate_files/old/*
+
+# exception keep these empty folders themselves
+!intermediate_BatchCensusCode_files/.gitkeep 
+!intermediate_ARV_files/.gitkeep
+
+# Ignore these files
+Joes_mySQL_Vars.py
+MarylandData_preGeo.csv # too big to push to github
+ARV_Functions_Constants.ipynb # Until Patent is approved. 
+
